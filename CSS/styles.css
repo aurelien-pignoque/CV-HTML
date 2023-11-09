@@ -1,0 +1,22 @@
+aside {
+background-color: #54A5D8;
+color: white;
+}
+
+h2 {
+    color: #54A5D8;
+}
+
+.place {
+    color: #54A5D8;
+    text-decoration: none;
+}
+
+.socialmedia {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
