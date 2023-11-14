@@ -1,26 +1,76 @@
+/* Bases */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Layout */
+
+main {
+    display: flex;
+}
+
 aside {
-background-color: #54A5D8;
-color: white;
+    order: -1;
+    flex: 1;
+    background-color: #54A5D8;
+    color: white;
+}
+
+/* Paragraphes */
+
+p {
+    margin: 24px;
+}
+
+/* Heading */
+
+h1 {
+    margin: 24px;
+    font-size: 35px;
 }
 
 h2 {
     color: #54A5D8;
+    margin: 24px;
+}
+
+h3 {
+    margin: 24px;
+    font-size: 22px;
+}
+
+/* Liens */
+
+.place,
+.socialmedia {
+    text-decoration: none;
 }
 
 .place {
     color: #54A5D8;
-    text-decoration: none;
 }
 
 .socialmedia {
     color: white;
-    text-decoration: none;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
-  }
+/* Images */
 
-li {
-    margin-bottom:10px
- }
+.PDP {
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+img {
+    padding-left: 24px;
+}
+
+/* Listes non ordonnées */
+
+ul {
+    margin-bottom: 20px;
+}
